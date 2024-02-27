@@ -6,11 +6,11 @@ Using HTML and CSS, I was able to desgin a replica of the project. I tried my be
 
 ### THE SCREENSHOTS BELOW SHOWS WHAT YOU WILL SEE ON THE DESKTOP PROJECT.
 
-![screenshot1](/Week-6//DayOne/images/screenshot1.PNG)
+![screenshot1](/screenshot1.PNG)
 
-![screenshot2](/Week-6//DayOne/images/screenshot2.PNG)
+![screenshot2](screenshot2.PNG)
 
-![screenshot3](/Week-6//DayOne/images/screenshot3.PNG)
+![screenshot3](screenshot3.PNG)
 
 
 
