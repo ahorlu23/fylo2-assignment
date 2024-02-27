@@ -1,0 +1,396 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    width: 80px;
+    height: 30px;
+}
+
+.margin-around {
+    margin-top: 30px;
+    margin-right: 40px;
+    margin-left: 40px;
+    margin-bottom: 50px;
+}
+
+.space-bottom {
+    margin-bottom: 60px;
+}
+
+.make-viewg {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 20px;
+    /* align-items: center; */
+    /* gap: -10px; */
+}
+
+
+
+.first-view {
+    display: flex;
+    /* justify-content: space-between; */
+    /* align-items: center; */
+    gap: 10px;
+} 
+
+.svg-view img {
+    width: 400px;
+    height: 300px; 
+}
+
+.input-view input[type="email"] {
+    border-top: rgb(160, 157, 157) solid 1px;
+    border-left: rgb(160, 157, 157) solid 1px;
+    border-right: rgb(160, 157, 157) solid 1px; 
+    padding: 10px 20px; 
+    display: inline-block;
+    text-align: center;
+}
+
+.style-p p {
+    background-color: hsl(228, 78%, 49%);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 2px;
+    border: hsl(228, 78%, 49%) solid 1px;
+    display: inline-block;
+    text-align: center;
+}
+
+.top-view {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.side-view {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+
+.bg-img {
+    background-image: url("/Week-6/DayOne/images/bg-curve-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 30px;
+}
+
+.mar-gin {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.mar-gin h1{
+    padding-top: 120px;
+    margin-left: 40px;
+    /* margin-right: 20px; */
+    padding-bottom: 10px;
+}
+
+.mar-gin a {
+    margin-left: 40px;
+    color: rgb(58, 231, 174);
+    text-decoration: none;
+    border-bottom: 1px solid rgb(58, 231, 174);
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.bgp p {
+    margin-left: 39px;
+    padding-bottom: 10px;
+    
+}
+
+.bgp-box {
+
+    width: 50%;
+    padding-top: 15px;
+    padding-right: 30px;
+    padding-left: 20px;
+    padding-bottom: 1px;
+
+
+    background-color: white;
+    /* width: 25%; */
+    height: auto;
+    margin: 50px 100px 50px 45px;
+    /* padding: 0px 20px 5px 0px; */
+    border-radius: 0.5rem;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+.test-img {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.test-img img {
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    margin-left: 35px;
+}
+
+.bgp-box span {
+    margin-left: 37px;
+}
+
+.illustration-2img img {
+    width: 600px;
+    height: 500px; 
+    margin-top: 70px;
+}
+
+.first-footer {
+    background-color: hsl(228, 40%, 36%);
+    /* margin-bottom: 20px; */
+    padding-top: 90px;
+    padding-left: 50px;
+    padding-right: -50px;
+    padding-bottom: 50px;
+    display: grid;
+    grid-template-columns: 2fr 1fr ;
+}
+
+.foot-view {
+    color: white;
+}
+
+.foot-view h2 {
+    margin-left: 20px;
+}
+
+.foot-view p {
+    margin-left: 20px;
+}
+
+.input2-view input[type="email"] {
+    padding: 10px 90px;
+}
+
+.input2-view p {
+    background-color: hsl(228, 78%, 49%);
+    color: white;
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+.footer-list {
+    background-color: hsl(229, 96%, 10%);
+    color: white;
+    /* margin-bottom: 20px; */
+    padding-top: 90px;
+    padding-left: 50px;
+    padding-right: -50px;
+    padding-bottom: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    
+}
+
+
+.logo-img {
+    /* fill: white; */
+    width: 80px;
+    height: 30px;
+    margin-bottom: 20px;
+}
+
+.phone-class {
+    margin-right: 10px;
+}
+
+.email-class {
+    margin-right: 10px;
+}
+
+.list-container {
+    margin: 0;
+    margin-top: 60px;
+    padding: 0;
+    list-style-type: none;
+}
+
+.list-item {
+    margin-bottom: 20px;
+}
+
+.social-class {
+    margin-top: 60px;
+}
+
+.space-img {
+    margin-top: 20px;
+}
+
+
+
+@media screen and (max-width:600px) {
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+
+    
+    
+
+    .top-view {
+        display: flex;
+        align-items: center;
+    }
+
+    .make-viewg {
+
+        display: grid;
+        grid-template-columns: 1fr;
+        position: relative;
+    }
+    .svg-view img {
+        width: 200px;
+        height: 150px;
+    }
+
+    .svg-view {
+        order: -1; /* Move the svg-view to the start */
+        margin-bottom: 20px;
+    }
+
+
+    .first-view {
+        display: flex;
+        flex-direction: column; /* Align items in a column */
+        gap: 10px;
+        margin-bottom: 20px;
+    }
+
+    
+    .input-view input[type="email"] {
+        padding: 10px 110px;
+        margin: 0px 20px;
+
+    }
+
+    .style-p p {
+        padding: 10px 160px;
+    }
+
+    .bgp-box {
+
+        width: 50%;
+        padding-top: 15px;
+        padding-right: 30px;
+        padding-left: 20px;
+        padding-bottom: 1px;
+        background-color: white;
+        height: auto;
+        margin: 50px 100px 50px 45px;
+        border-radius: 0.5rem;
+        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    }
+
+    .mar-gin {
+        display: grid;
+        grid-template-columns: 1fr;
+        position: relative;
+    }
+
+    
+    .illustration-2img {
+        order: -1; /* Move the illustration-2img to the start */
+        margin: 0px 100px;
+    }
+
+    .bgp {
+        margin-top: 20px; /* Add some spacing between the two sections */
+    }
+
+    .illustration-2img img {
+        width: 200px;
+        height: 150px; 
+        margin-top: 70px;
+    }
+
+    
+
+    .bg-img {
+        background-image: url("/Week-6/");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        width: 100%;
+        height: 100%;
+        padding-bottom: 30px;
+    }
+
+    .first-footer {
+        background-color: hsl(228, 40%, 36%);
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .foot-view h2 {
+        margin: 0px 100px;
+    }
+
+
+
+    .input2-view input[type="email"] {
+        padding: 10px 60px;
+        margin-left: 20px;
+    }
+    
+    .input2-view p {
+        background-color: hsl(228, 78%, 49%);
+        color: white;
+        display: inline-block;
+        padding: 10px 80px;
+        margin-left: 20px;
+    }
+
+    .footer-list {
+        background-color: hsl(229, 96%, 10%);
+        color: white;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px; /* Add some gap between items */
+        padding: 20px; /* Add padding to the footer */
+    }
+    
+
+/* 
+    .footer-list {
+    background-color: hsl(229, 96%, 10%);
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr ;
+    
+    } */
+
+    .social-class {
+        margin: 20px 50px;
+    }
+
+}
+
+
